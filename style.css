@@ -1,0 +1,25 @@
+.rectangle {
+    height: 50vh;
+    width: 100vw;
+    background-color: red;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 5em sans-serif;
+}
+
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+}
+
+body {
+    margin: 0px;
+}

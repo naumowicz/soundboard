@@ -1,4 +1,4 @@
-.rectangle {
+div {
     height: 25vh;
     width: auto;
     background-color: red;
@@ -21,6 +21,9 @@
 }
 .purple {
     background-color: purple;
+}
+.teal {
+    background-color: teal;
 }
 
 body {

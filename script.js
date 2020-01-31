@@ -22,15 +22,15 @@ function generujPrzyciski() {
 	for (let i = 0; i < text.length; i++) {
 		let div = document.createElement('div');
 		div.setAttribute('id', i);
-		div.setAttribute('class', randomColor());
 		let span = document.createElement('span');
 		span.innerText = text[i];
-		div.addEventListener('click', function() {
+		div.addEventListener('click', function () {
 			dzwiek(i);
 		});
+		div.style.backgroundColor = randomColor();
 		div.appendChild(span);
 		body.appendChild(div);
-	}	
+	}
 }
 
 generujPrzyciski();

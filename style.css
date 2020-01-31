@@ -1,6 +1,6 @@
 .rectangle {
-    height: 50vh;
-    width: 100vw;
+    height: 25vh;
+    width: auto;
     background-color: red;
     text-align: center;
     color: white;

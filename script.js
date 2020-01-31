@@ -1,4 +1,4 @@
-const kolory = ['red', 'green', 'blue', 'purple', 'teal'];
+const kolory = ['red', 'green', 'blue', 'purple', 'teal', 'maroon', 'orange', 'black', '#F87217', 'magenta', '#6C2DC7'];
 
 const text = ['Familiada - dobrze', 'Familiada - źle', 'Familiada - było', '1 z 10 - dobrze', '1 z 10 - źle', '1 z 10 - otóż nie'];
 

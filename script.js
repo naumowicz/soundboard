@@ -2,7 +2,7 @@ const kolory = ['red', 'green', 'blue', 'purple', 'teal', 'maroon', 'orange', 'b
 
 const text = ['Familiada - dobrze', 'Familiada - źle', 'Familiada - było', '1 z 10 - czołówka','1 z 10 - dobrze', '1 z 10 - źle', '1 z 10 - otóż nie', 'urwie mnie od internetu'];
 
-let dzwieki = ['./sounds/Familiada/dobrze.mp3', './sounds/Familiada/blad.mp3', 'sounds/Familiada/bylo.mp3', 'sounds/1z10/czolowka.mp3' 'sounds/1z10/dobrze.mp3', 'sounds/1z10/zle.mp3', 'sounds/1z10/otoznie.m4a', 'sounds/inne/urwieOdInternetu.mp3'];
+let dzwieki = ['./sounds/Familiada/dobrze.mp3', './sounds/Familiada/blad.mp3', 'sounds/Familiada/bylo.mp3', 'sounds/1z10/czolowka.mp3', 'sounds/1z10/dobrze.mp3', 'sounds/1z10/zle.mp3', 'sounds/1z10/otoznie.m4a', 'sounds/inne/urwieOdInternetu.mp3'];
 
 for (let i = 0; i < dzwieki.length; i++) {
 	dzwieki[i] = new Audio(dzwieki[i]);
